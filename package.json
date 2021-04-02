@@ -1,0 +1,40 @@
+{
+  "name": "star-ui",
+  "version": "1.0.0",
+  "description": "taro + react hooks + typescript的组件库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvkun996/star-ui.git"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "typescript",
+    "trao",
+    "wx"
+  ],
+  "author": "lvkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvkun996/star-ui/issues"
+  },
+  "homepage": "https://github.com/lvkun996/star-ui#readme",
+  "devDependencies": {
+    "@tarojs/components": "^3.2.0",
+    "@tarojs/react": "^3.2.0",
+    "@tarojs/taro": "^3.2.0",
+    "@types/classnames": "^2.2.11",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "react": "^17.0.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.3"
+  }
+}
